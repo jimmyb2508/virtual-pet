@@ -1,0 +1,1 @@
+This is a Manchester Codes project aimed at creating a virtual pet for us to love and cherish. Just make sure that you don't leave it with your mum whilst you go to work, because you will return home to discover seven poo's littered across the screen.
