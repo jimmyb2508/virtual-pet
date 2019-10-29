@@ -153,3 +153,11 @@ describe('isAlive', () => {
     })
   })
 
+describe('haveBaby', () => {
+    it('parent has child', () => {
+        const parent = new Pet('Dave');
+        parent.haveBaby('Amelia');
+        console.log(parent);
+        expect(parent.children).toBeInstanceOf(Array);
+    })
+})

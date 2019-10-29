@@ -8,6 +8,8 @@ function Pet(name) {
     this.age = 0;
     this.hunger = 0;
     this.fitness = 10;
+    this.children = [];
+
 
     Pet.prototype = {
         get isAlive() {
@@ -56,6 +58,13 @@ function Pet(name) {
         }  else if (this.hunger >= 5) {
             return HUNGRY;
         } else return CONTENT;
+    }
+
+    Pet.prototype.haveBaby = function(child) {
+        const baby = new Pet(child);
+        baby.parent = this.name;
+        console.log(baby);
+        this.children.push(baby.name);
     }
 }
 module.exports = Pet;
