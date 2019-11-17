@@ -1,6 +1,4 @@
-# Project Title
-
-Tamawotzi
+# Project Title - Tamawotzi
 
 Real pets are great, but they do have drawbacks. They smell. Your mum might be allergic to them. Maybe you just aren't allowed one in your flat.
 
@@ -30,8 +28,8 @@ If Tamawotzi gets to 30 days old it will DIE 😢
 
 You are going to need to install node.js & jest in order to run this application.
 
-* [Node.js] (https://nodejs.org/en/)
-* [Jest] (https://jestjs.io/)
+* Node.js - Install Here: https://nodejs.org/en/
+* Jest - Install Here: https://jestjs.io/
 
 ## Getting Started
 
@@ -55,7 +53,11 @@ To view your pet's status type `pet`. The listed properties denote the functiona
 
 You can ask your pet how it's feeling by selecting `pet.checkUp()`;
 
-Be careful not to kill your pet! If it's hunger level exceeds 10: it will starve to death! If it's fitness level drops below 0: it will die of obesity!
+Be careful not to kill your pet! 
+
+* If it's hunger level exceeds 10: it will starve to death! 
+
+* If it's fitness level drops below 0: it will die of obesity!
 
 ## Tests
 
