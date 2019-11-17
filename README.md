@@ -51,6 +51,8 @@ To view your pet's status type `pet`. The listed properties denote the functiona
 
 `pet.walk()` - Walks pet.
 
+`pet.haveBaby('Your baby name here')` - Pet has a baby.
+
 You can ask your pet how it's feeling by selecting `pet.checkUp()`;
 
 Be careful not to kill your pet! 
