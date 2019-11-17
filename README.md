@@ -37,7 +37,7 @@ Download the repository and run `npm install` in the terminal.
 
 Navigate to the installed folder in the terminal and type `node`.
 
-Once in node you are going to need to allow it access to the JavaScript inside of the src file. Type `const Pet = require('../src/pet');` to allow this.
+Once in node you are going to need to allow it access to the JavaScript inside of the src file: Type `const Pet = require('../src/pet');` to allow this.
 
 Now you can create your pet! Type `const pet = new Pet('Your-name-here');`
 
