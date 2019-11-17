@@ -1,4 +1,4 @@
-#Project Title
+# Project Title
 
 Tamawotzi
 
@@ -26,11 +26,14 @@ If Tamawotzi gets too hungry or unfit, it will DIE 💀
 
 If Tamawotzi gets to 30 days old it will DIE 😢
 
-##Prerequisites 
+## Prerequisites
 
 You are going to need to install node.js & jest in order to run this application.
 
-##Getting Started
+* [Node.js] (https://nodejs.org/en/)
+* [Jest] (https://jestjs.io/)
+
+## Getting Started
 
 Download the repository and run `npm install` in the terminal. 
 
@@ -54,17 +57,17 @@ You can ask your pet how it's feeling by selecting `pet.checkUp()`;
 
 Be careful not to kill your pet! If it's hunger level exceeds 10: it will starve to death! If it's fitness level drops below 0: it will die of obesity!
 
-##Tests
+## Tests
 
 All the JavaScript is tested using Jest. To run the tests yourself you will need to open your terminal and install jest as a developer dependency by typing the following into the command line: `npm install -D jest`.
 
 Once completed you will ne able to run the test by typing `npm test`.
 
-##Author
+## Author
 
 James Barrington
 
-##Acknowledgements 
+## Acknowledgements 
 
 Manchester Codes (https://github.com/MCRcodes)
 
